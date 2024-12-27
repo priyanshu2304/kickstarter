@@ -40,3 +40,27 @@ a {
     color-scheme: dark;
   }
 }
+
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 768px) {
+    max-width: 750px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 1060px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1170px;
+  }
+
+  @media (min-width: 1600px) {
+    max-width: 1500px;
+  }
+}
