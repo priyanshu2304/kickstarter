@@ -22,12 +22,14 @@
   border-bottom: 1px solid #d6d6d6;
   background-color: #f6f6f6;
 
-  h5 {
-    padding: 10px;
-    font-weight: 600;
-    color: #2b2b2b;
-    cursor: pointer;
-  }
+
+}
+
+h5 {
+  padding: 10px;
+  font-weight: 600;
+  color: #2b2b2b;
+  cursor: pointer;
 }
 
 .listItem {
@@ -36,10 +38,12 @@
   border-bottom: 1px solid #d6d6d6;
   cursor: pointer;
 
-  h6 {
-    padding: 10px;
-    color: #2b2b2b;
-  }
+
+}
+
+h6 {
+  padding: 10px;
+  color: #2b2b2b;
 }
 
 .listSection .listItem:nth-child(even) {
